@@ -2,7 +2,8 @@
 A single Page Vue-Bulma web app.
 ## Demo
 [Developer Profile](https://bulma-vuejs-profile.vercel.app/)
-![Profile](\portfolio.png)
+
+<img src="/portfolio.png"/>
 ## Packages used
 * Vuejs 2.0
 * Bulma CSS
