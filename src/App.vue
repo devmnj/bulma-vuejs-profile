@@ -39,15 +39,15 @@
                   <h1 class="is-size-5">Web Developer</h1>
                   <span class="icon  ">
                 <i>
-                 <a href="#"> <v-icon name="md-facebook" scale="1.5" /></a>
+                 <a :href="`${fb}`"> <v-icon name="md-facebook" scale="1.5" /></a>
                 </i>
                 <i>
-                  <a href="#"> <v-icon name="oi-octoface" scale="1.5" /></a>
+                  <a :href="`${gh}`"> <v-icon name="oi-octoface" scale="1.5" /></a>
                 </i>
                 <i>
-                  <a href="#"> <v-icon name="bi-twitter" scale="1.5"/></a>
+                  <a :href="`${tw}`"> <v-icon name="bi-twitter" scale="1.5"/></a>
                 </i> <i>
-                 <a href="#">  <v-icon name="fa-wordpress"  scale="1.5"/></a>
+                 <a :href="`${wp}`">  <v-icon name="fa-wordpress"  scale="1.5"/></a>
                 </i></span>
                 </template>
               </ImgCards>
@@ -64,10 +64,10 @@
       <div class="hero-foot mb-2 mt-2">
         <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
           <ul>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li class="is-active"><a href="#" aria-current="page">Upstock</a></li>
+            <li><a :href="`${gh}`">GitHub</a></li>
+            <li><a :href="`${fb}`">Facebook</a></li>
+            <li><a :href="`${tw}`">Twitter</a></li>
+            <li class="is-active"><a href="`${us}`" aria-current="page">Unsplash</a></li>
           </ul>
         </nav>
       </div>
@@ -79,6 +79,15 @@
 import ImgCards from "./components/ImgCards";
 export default {
   name: "App",
+  data() {
+    return {
+      fb:"https://facebook.com/manoj_melettur",
+      tw: "https://twitter.ocm/codehat_",
+      wp:"https://javascriptsu.wordpress.com",
+      gh:"https://github.com/manojap",
+      us:"https://unsplash.com/@manojap"
+    }
+  },
   components: {
     ImgCards,
   },
