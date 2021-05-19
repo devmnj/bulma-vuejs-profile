@@ -1,7 +1,15 @@
-# bulma_profile
+# About
+A single Page Vue-Bulma web app.
+## Demo
+[Devprofile](http:\\)
+![Profile](\portfolio.png)
+## Packages used
+* Vuejs 2.0
+* Bulma CSS
+* oh-vue-icons
 
-## Project setup
-```
+ 
+## Project Setup
 npm install
 ```
 
