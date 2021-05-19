@@ -1,7 +1,7 @@
 # About
 A single Page Vue-Bulma web app.
 ## Demo
-[Single Page Profile](https://bulma-vuejs-profile.vercel.app/)
+[Developer Profile](https://bulma-vuejs-profile.vercel.app/)
 ![Profile](\portfolio.png)
 ## Packages used
 * Vuejs 2.0
